@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bk:memberList xmlns:bk="http://www.bkaiser.com/2017/ns/seeclub">
+	<bk:date>15. Mai 2018</bk:date>
+	<bk:paymentDate>innert 30 Tagen</bk:paymentDate>
+	<bk:title>Mitgliederbeitrag 2018</bk:title>
+	<bk:member>
+		<bk:address>
+			<bk:name>Bruno Kaiser</bk:name>
+			<bk:street>Rainstr. 73</bk:street>
+			<bk:city>8712 Stäfa</bk:city>
+		</bk:address>
+		<bk:salutation>Lieber Bruno</bk:salutation>
+		<bk:categoryList>
+			<bk:category name="Aktive 1" amount="400.00" />
+			<bk:category name="Eintrittsgebühr" amount="500.00" />
+			<bk:category name="SRV-Beitrag" amount="75.00" />
+			<bk:category name="Garderobe-Kästli" amount="20.00" />
+			<bk:category name="Skiffplatz inkl. Versicherung" amount="435.00" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member>
+		<bk:address>
+			<bk:name>Barbara Kaiser</bk:name>
+			<bk:street>Rainstr. 73</bk:street>
+			<bk:city>8712 Stäfa</bk:city>
+		</bk:address>
+		<bk:salutation>Liebe Barbara</bk:salutation>
+		<bk:categoryList>
+			<bk:category name="Aktive 1" amount="200.00" />
+			<bk:category name="Garderobe-Kästli" amount="20.00" />
+		</bk:categoryList>
+	</bk:member>	
+</bk:memberList>

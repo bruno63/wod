@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pipelines xmlns="http://www.jeremias-maerki.ch/ns/wod/pipeline"
+  xmlns:p="http://www.jeremias-maerki.ch/ns/wod/pipeline"
+  xmlns:w="http://jeremias-maerki.ch/wod"
+  xmlns:job="http://www.jeremias-maerki.ch/ns/wod/job"
+  xmlns:wod="http://www.jeremias-maerki.ch/ns/wod/functions"
+  xmlns:wd="http://www.jeremias-maerki.ch/ns/wod/document/v1"
+  xmlns:wi="http://www.jeremias-maerki.ch/ns/wod/generic-invoice/v1"
+  xmlns:print="http://www.jeremias-maerki.ch/ns/print"
+  xmlns:jm="http://www.jeremias-maerki.ch/ns/xpath"
+  xmlns:html="http://www.w3.org/1999/xhtml">
+    
+  <pipeline>
+    <name>bkaiser.rechnung</name>
+    <assembly>
+      <variable name="name" value="{wod:identifier(job:representation(job:main-document()))}"/>
+      
+      <!-- Format the invoice for a preview. -->
+      <call-pipe name="bkaiser.format-invoice" if="{$job:incoming-channel = 'http:produce'}"/>
+      
+      <!-- ...otherwise split into single invoices -->
+<!--       <call-pipe name="bkaiser.split" if="{$job:incoming-channel != 'http:produce'}"/>
+ -->    </assembly>
+  </pipeline>
+
+  <pipeline>
+    <name>bkaiser.rechnung.single</name>
+    <assembly>
+      <variable name="name" value="{wod:identifier(job:representation(job:main-document()))}"/>
+      
+      <!-- Format the invoice. -->
+      <call-pipe name="bkaiser.format-invoice"/>
+      
+      <!-- Deliver the document -->
+      <call-pipe name="bkaiser.deliver"/>
+    </assembly>
+  </pipeline>
+  
+<!--   <pipeline>
+    <name>bkaiser.split</name>
+    <assembly>
+      <parse-xml source="{job:representation(job:main-document(), 'http://bkaiser.com/ns/bkaiser/rechnung')}"/>
+      <xslt stylesheet="xslt/rechnung-split-prepare.xsl"/>
+      <split-xml target-pipeline="bkaiser.split-job"/>
+    </assembly>
+  </pipeline>
+  
+  <pipeline>
+    <name>bkaiser.split-job</name>
+    <assembly>
+      <serialize-xml/>
+      <store-stream expiration="P7D" output-format="http://bkaiser.com/ns/bkaiser/rechnung" identifier="{wod:identifier($source-uri)}-{wod:format-number($index, '000000')}"/>
+      <create-document>
+        <attributes>
+          <origin xmlns="">bkaiser.split</origin>
+        </attributes>
+      </create-document>
+      <create-job job-type="http://bkaiser.com/ns/bkaiser/rechnung/einzel" main-document="{$job:document}" priority="0" expire-after="P7D">
+        <attributes>
+          <origin xmlns="">bkaiser.split</origin>
+        </attributes>
+      </create-job>
+    </assembly>
+  </pipeline> -->
+  
+ <!--  <pipeline>
+    <name>bkaiser.deliver</name>
+    <assembly>
+      <call-pipe name="bkaiser.deliver.peax"/>
+      
+      <fail message="No supported output channel addressed. Document was not delivered!" if="{$delivered != 'true'}"/>
+    </assembly>
+  </pipeline> -->
+  
+  <pipeline>
+    <name>bkaiser.format-invoice</name>
+    <assembly>
+      <parse-xml source="{job:representation(job:main-document(), 'http://bkaiser.com/ns/bkaiser/jahresrechnung')}" source-locator="true"/>
+      <xslt stylesheet="xslt/jahresrechnung.xsl" source-locator="true"/>
+      <!--store-stream expiration="P30D" identifier="{wod:identifier($source-uri)}" output-format="http://www.w3.org/1999/XSL/Format"/-->
+      <apache-fop-formatter output-format="application/pdf" config-name="fop-config-bkaiser" xml:base="xslt/"
+        structure-target-variable="structure">
+        <suppressed-events> 
+          <event>org.apache.fop.fo.flow.table.TableEventProducer.paddingNotApplicable</event>
+        </suppressed-events>
+      </apache-fop-formatter>
+      <store-stream expiration="P30D" identifier="{wod:identifier($source-uri)}"/>
+<!--       
+      <add-representation document="{$job:document}"/>
+      <variable name="pdf-uri" value="{$job:generated-content}"/>
+      <call-pipe name="bkaiser.store-struct" if="{$job:incoming-channel != 'http:produce'}"/>
+ -->    
+     <add-representation/>
+          
+      <update-job>
+        <attributes>
+          <pdf>{$job:generated-content}</pdf>
+        </attributes>
+      </update-job>
+      <stream-text format="application/json">
+            \{ "status": "OK", {concat('"pdf": "', $wod.external.base-uri, 'wod-repo/document/', substring-after($pdf, 'content:'), '"')} \}
+      </stream-text>
+      <store-stream expiration="P7D" identifier="{wod:identifier($name)}" output-format="http://peax.ch/wod/straatos/result"/>
+    </assembly>
+  </pipeline>
+  
+  <pipeline>
+    <name>bkaiser.store-struct</name>
+    <assembly>
+      <document-structure-to-xml structure="structure"/>
+      <store-stream expiration="P30D" output-format="http://www.jeremias-maerki.ch/ns/document/structure" identifier="{$name}.struct" content-target-variable="structure-xml"/>
+      <add-representation source="{$structure-xml/w:representation/w:content-uri}" format="{$structure-xml/w:representation/w:type}"/>
+    </assembly>
+  </pipeline>
+  
+<!--   <pipeline>
+    <name>bkaiser.deliver.peax</name>
+    <assembly>
+      <stream source="{$pdf-uri}" format="ContentType:application/pdf"/>
+      <deliver-to-peax account="peax.sender.stage">
+        <metadata>
+          <parse-xml source="{job:representation(job:main-document(), 'http://bkaiser.com/ns/bkaiser/rechnung')}" source-locator="true"/>
+          <xslt stylesheet="xslt/rechnung2peax-metadata.xsl" source-locator="true"/>
+        </metadata> 
+      </deliver-to-peax>
+      <variable name="delivered" value="true"/>
+    </assembly>
+  </pipeline> -->
+
+  
+  
+</pipelines>

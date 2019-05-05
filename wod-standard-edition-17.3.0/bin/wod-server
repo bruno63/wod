@@ -1,0 +1,270 @@
+#!/bin/bash
+#
+# /etc/init.d/wod -- startup script for World Of Documents
+#
+# Inspired by startup script from Apache Tomcat
+#
+### BEGIN INIT INFO
+# Provides:          wod
+# Required-Start:    $local_fs $remote_fs $network
+# Required-Stop:     $local_fs $remote_fs $network
+# Should-Start:      $named
+# Should-Stop:       $named
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Start WOD.
+# Description:       Start the World Of Documents Server.
+### END INIT INFO
+
+set -e
+
+PATH=/bin:/usr/bin:/sbin:/usr/sbin
+
+DESC="World Of Documents Server"
+DAEMON=/usr/bin/jsvc
+
+# The first existing directory is used for JAVA_HOME (if JAVA_HOME is not
+# defined in $DEFAULT)
+JDK_DIRS="/usr/lib/jvm/java-6-sun /usr/lib/jvm/java-6-openjdk /usr/lib/jvm/java-6-openjdk-i386"
+
+DEFAULT_JAVA_DEBUG_OPTS="-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005"
+SUNJMX="-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=40099 -Dcom.sun.management.jmxremote.ssl=false"
+CUSTOM_OPTS="-XX:+UseG1GC -Xmx512m -XX:MaxPermSize=256m $SUNJMX"
+
+# Use the Java security manager? (yes/no)
+APP_SECURITY=no
+APP_SECURITY_POLICY="$APP_HOME/etc/security.policy"
+
+THIS_SCRIPT=`readlink -f $0`
+SCRIPT_DIR=`dirname $THIS_SCRIPT`
+
+if [ -f "$SCRIPT_DIR/wod-variables" ]; then
+	source $SCRIPT_DIR/wod-variables
+else
+	NAME=wod
+fi
+
+if [ -z "$APP_HOME" ]; then
+	APP_HOME=/opt/$NAME
+fi
+
+if [ -z "$APP_DATA" ]; then
+	APP_DATA=/var/opt/$NAME
+fi
+
+if [ -z "$APP_USER" ]; then
+	# Run WOD as this user ID
+	APP_USER=$NAME
+fi
+
+if [ -z "$APP_LOG" ]; then
+	APP_LOG=$APP_DATA/log
+fi
+
+if [ -z "$JVM_TMP" ]; then
+	JVM_TMP=/tmp/$NAME
+fi
+
+DEFAULT=/etc/default/wod
+
+
+
+# Variables can be overwritten in $DEFAULT
+
+
+if [ `id -u` -ne 0 ]; then
+        echo "You need root privileges to run this script"
+        exit 1
+fi
+ 
+# Make sure WOD is started with system locale
+if [ -r /etc/default/locale ]; then
+        . /etc/default/locale
+        export LANG
+fi
+
+. /lib/lsb/init-functions
+
+if [ -r /etc/default/rcS ]; then
+        . /etc/default/rcS
+fi
+
+
+# Look for the right JVM to use
+for jdir in $JDK_DIRS; do
+    if [ -r "$jdir/bin/java" -a -z "${JAVA_HOME}" ]; then
+        JAVA_HOME="$jdir"
+    fi
+done
+export JAVA_HOME
+
+# Default Java options
+# Set java.awt.headless=true if JAVA_OPTS is not set so the
+if [ -z "$JAVA_OPTS" ]; then
+        JAVA_OPTS="-Djava.awt.headless=true $CUSTOM_OPTS"
+fi
+
+# End of variables that can be overwritten in $DEFAULT
+
+# overwrite settings from default file
+if [ -f "$DEFAULT" ]; then
+        . "$DEFAULT"
+fi
+
+if [ ! -f "$APP_HOME/lib/ch.jm.osgi.container.jar" ]; then
+        log_failure_msg "$NAME is not installed $APP_HOME"
+        exit 1
+fi
+
+[ -f "$DAEMON" ] || exit 0
+
+# Disable shutdown port. Not necessary as jsvc uses the Daemon interface.
+JAVA_OPTS="$JAVA_OPTS -Dapp.shutdown.port=-1"
+
+# various standard directories
+JAVA_OPTS="$JAVA_OPTS -Djava.ext.dirs=$JAVA_HOME/jre/lib/ext:$JAVA_HOME/lib/ext:$APP_HOME/lib/ext -Djava.endorsed.dirs=$JAVA_HOME/jre/lib/endorsed:$JAVA_HOME/lib/endorsed:$APP_HOME/lib/endorsed -Dapp.home=$APP_HOME -Dapp.data=$APP_DATA -Dapp.log=$APP_LOG -Djava.io.tmpdir=$JVM_TMP"
+
+if [ "$APP_SECURITY" = "yes" ]; then
+        JAVA_OPTS="$JAVA_OPTS -Djava.security.manager -Djava.security.policy=$APP_SECURITY_POLICY"
+fi
+
+# Configure java.util.logging
+if [ -r "$APP_HOME"/etc/logging.properties ]; then
+  JAVA_OPTS="$JAVA_OPTS "-Djava.util.logging.config.file="$APP_HOME/etc/logging.properties"
+fi
+
+# Disable local console which is unusable anyway in daemon mode
+JAVA_OPTS="$JAVA_OPTS -Dkaraf.startLocalConsole=false"
+
+# Define other required variables
+APP_PID="/var/run/$NAME.pid"
+BOOTSTRAP_CLASS=ch.jm.osgi.container.Daemon
+
+# Set up classpath
+APP_LIBS=${APP_HOME}/lib/*.jar
+for i in ${APP_LIBS}
+do
+    # if the directory is empty, then it will return the input string
+    # this is stupid, so case for it
+    if [ "$i" != "${APP_LIBS}" ] ; then
+      if [ -z "$JSVC_CLASSPATH" ] ; then
+        JSVC_CLASSPATH=$i
+      else
+        JSVC_CLASSPATH="$i":$JSVC_CLASSPATH
+      fi
+    fi
+done
+JSVC_CLASSPATH="/usr/share/java/commons-daemon.jar:$JSVC_CLASSPATH"
+
+# Look for Java Secure Sockets Extension (JSSE) JARs
+#if [ -z "${JSSE_HOME}" -a -r "${JAVA_HOME}/jre/lib/jsse.jar" ]; then
+#    JSSE_HOME="${JAVA_HOME}/jre/"
+#fi
+#export JSSE_HOME
+
+# Check directories
+if [ ! -d "$APP_DATA" ]; then
+	log_failure_msg "Data directory does not exist: $APP_DATA"
+	exit 1
+fi
+if [ ! -d "$APP_LOG" ]; then
+	log_failure_msg "Data directory does not exist: $APP_LOG"
+	exit 1
+fi
+
+
+case "$1" in
+  start)
+        if [ -z "$JAVA_HOME" ]; then
+                log_failure_msg "no JDK found - please set JAVA_HOME"
+                exit 1
+        fi
+
+        if [ ! -d "$APP_HOME/etc" ]; then
+                log_failure_msg "invalid APP_HOME: $APP_HOME"
+                exit 1
+        fi
+
+        log_daemon_msg "Starting $DESC" "$NAME"
+        if start-stop-daemon --test --start --pidfile "$APP_PID" \
+                --user $APP_USER --startas "$JAVA_HOME/bin/java" \
+		>>$APP_LOG/daemon.log; then
+
+                # Remove / recreate JVM_TMP directory
+                rm -rf "$JVM_TMP"
+                mkdir "$JVM_TMP" || {
+                        log_failure_msg "could not create JVM temporary directory"
+                        exit 1
+                }
+                chown $APP_USER "$JVM_TMP"
+                cd "$JVM_TMP"
+
+                $DAEMON -user "$APP_USER" -procname $NAME -cp "$JSVC_CLASSPATH" \
+                    -outfile $APP_LOG/daemon.log -errfile $APP_LOG/daemon.log \
+                    -pidfile "$APP_PID" $JAVA_OPTS "$BOOTSTRAP_CLASS"
+
+                sleep 5
+                if start-stop-daemon --test --start --pidfile "$APP_PID" \
+                        --user $APP_USER --startas "$JAVA_HOME/bin/java" \
+			>>$APP_LOG/daemon.log; then
+                        log_end_msg 1
+                else
+                        log_end_msg 0
+                fi
+        else
+                log_progress_msg "(already running)"
+                log_end_msg 0
+        fi
+        ;;
+  stop)
+        log_daemon_msg "Stopping $DESC" "$NAME"
+        if start-stop-daemon --test --start --pidfile "$APP_PID" \
+                --user "$APP_USER" --startas "$JAVA_HOME/bin/java" \
+                >>$APP_LOG/daemon.log; then
+                log_progress_msg "(not running)"
+        else
+                $DAEMON -cp "$JSVC_CLASSPATH" -pidfile "$APP_PID" \
+                     -stop "$BOOTSTRAP_CLASS"
+        fi
+        rm -rf "$JVM_TMP"
+        log_end_msg 0
+        ;;
+   status)
+        if start-stop-daemon --test --start --pidfile "$APP_PID" \
+                --user $APP_USER --startas "$JAVA_HOME/bin/java" \
+                >>$APP_LOG/daemon.log; then
+
+                if [ -f "$APP_PID" ]; then
+                    log_success_msg "$DESC is not running, but pid file exists."
+                        exit 1
+                else
+                    log_success_msg "$DESC is not running."
+                        exit 3
+                fi
+        else
+                log_success_msg "$DESC is running with pid `cat $APP_PID`"
+        fi
+        ;;
+  restart|force-reload)
+        if start-stop-daemon --test --stop --pidfile "$APP_PID" \
+                --user $APP_USER --startas "$JAVA_HOME/bin/java" \
+                >>$APP_LOG/daemon.log; then
+                $0 stop
+                sleep 1
+        fi
+        $0 start
+        ;;
+  try-restart)
+        if start-stop-daemon --test --start --pidfile "$APP_PID" \
+                --user $APP_USER --startas "$JAVA_HOME/bin/java" \
+                >>$APP_LOG/daemon.log; then
+                $0 start
+        fi
+        ;;
+  *)
+        log_success_msg "Usage: $0 {start|stop|restart|try-restart|force-reload|status}"
+        exit 1
+        ;;
+esac
+
+exit 0

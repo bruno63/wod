@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog 
+  xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <rewriteURI uriStartString="bkaiser:/xsd/" rewritePrefix="xsd/"/>
+  <rewriteURI uriStartString="bkaiser:/xslt/" rewritePrefix="xslt/"/>
+  <rewriteURI uriStartString="bkaiser:/images/" rewritePrefix="images/"/>
+  <rewriteURI uriStartString="bkaiser:/fonts/" rewritePrefix="fonts/"/>
+</catalog>

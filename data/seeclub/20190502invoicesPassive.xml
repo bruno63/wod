@@ -1,0 +1,475 @@
+<bk xmlns="http://www.bkaiser.com/2017/ns/seeclub">
+	<bk:memberList xmlns:bk="http://www.bkaiser.com/2017/ns/seeclub">
+		<bk:date>6.5.2019</bk:date>
+		<bk:paymentDate>innert 30 Tagen</bk:paymentDate>
+		<bk:title>Mitgliederbeitrag 2019</bk:title>
+		<bk:member>
+			<bk:address>
+				<bk:name>Ursula Allemann</bk:name>
+				<bk:street>Neue Püntacherstr. 8</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Ursula</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Philipp Ammann</bk:name>
+				<bk:street>Seestrasse 39</bk:street>
+				<bk:city>8820 Wädenswil</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Philipp</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Gabor Balatoni</bk:name>
+				<bk:street>Szölöhegy ut 8</bk:street>
+				<bk:city>8600 Siofok</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Gabor</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Franziska Bilger</bk:name>
+				<bk:street>Chapfwiesenstr. 8</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Franziska</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Marlene Deuber </bk:name>
+				<bk:street>Dammstr. 7</bk:street>
+				<bk:city>8708 Männedorf</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Marlene</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Philippe Dietiker</bk:name>
+				<bk:street>Kleindorfstrasse 44</bk:street>
+				<bk:city>8707 Uetikon</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Philippe</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Cristin Doldinger</bk:name>
+				<bk:street>Begonienstr. 9</bk:street>
+				<bk:city>8472 Seuzach</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Cristin</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Ueli Egli</bk:name>
+				<bk:street>Haslihalde 12</bk:street>
+				<bk:city>8707 Uetikon</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Ueli</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Bettina Enz-Stöckli</bk:name>
+				<bk:street>Glärnischstrasse 8</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Bettina</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Kim Fritz</bk:name>
+				<bk:street>Schöntalstrasse 22</bk:street>
+				<bk:city>8004 Zürich</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Kim</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Yves Gutzwiller</bk:name>
+				<bk:street>Schulhausstr. 30</bk:street>
+				<bk:city>8706 Meilen</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Yves</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Pascal Gutzwiller</bk:name>
+				<bk:street>Sunnenbachweg 1</bk:street>
+				<bk:city>8634 Hombrechtikon</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Pascal</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Christian Haltner</bk:name>
+				<bk:street>Torlenstrasse 2B</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Christian</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Renate Hartenbach</bk:name>
+				<bk:street>Galtbergstrasse 11</bk:street>
+				<bk:city>8625 Gossau ZH</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Renate</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Monica Hasler</bk:name>
+				<bk:street>Rütihofstrasse 13</bk:street>
+				<bk:city>8713 Uerikon</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Monica</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Claudia Hollenstein</bk:name>
+				<bk:street>Rietlirain 31</bk:street>
+				<bk:city>8713 Uerikon</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Claudia</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Albert Kuhl</bk:name>
+				<bk:street>Glärnischstr. 18</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Albert</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Rudolf Kupper</bk:name>
+				<bk:street>Bergstr. 13</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Rudolf</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Yvonne Kupper</bk:name>
+				<bk:street>Oberallenbergstrasse 78</bk:street>
+				<bk:city>8708 Männedorf</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Yvonne</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Andres Leemann</bk:name>
+				<bk:street>Dorfstr. 3</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Andres</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Marcel Mangold</bk:name>
+				<bk:street>Kronenstr. 10</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Marcel</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Richard Marty</bk:name>
+				<bk:street>Lindenhofweg 5</bk:street>
+				<bk:city>8645 Jona</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Richard</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Urs Mettler</bk:name>
+				<bk:street>Talweg 7</bk:street>
+				<bk:city>8707 Uetikon</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Urs</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Anna Meyer</bk:name>
+				<bk:street>Furrgasse 25</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Anna</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Julia Meyer</bk:name>
+				<bk:street>Furrgasse 25</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Julia</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Francoise Müller</bk:name>
+				<bk:street>Milchbuckstr. 15</bk:street>
+				<bk:city>8057 Zürich</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Francoise</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Anja Müller</bk:name>
+				<bk:street>Landskronstr. 53</bk:street>
+				<bk:city>4056 Basel</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Anja</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Nils Müller</bk:name>
+				<bk:street>Sonnenwiesweg 6</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Nils</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Urs Rochaix</bk:name>
+				<bk:street>Häldelistr. 8</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Urs</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Eliane Ruckstuhl</bk:name>
+				<bk:street>13, rue du Colonel Coutau</bk:street>
+				<bk:city>1205 Genève</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Eliane</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Thomas Rutishauser</bk:name>
+				<bk:street>Mockenwiesstr. 40</bk:street>
+				<bk:city>8713 Uerikon</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Thomas</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Lucien Salpeter</bk:name>
+				<bk:street>Bahnrainstrasse 6</bk:street>
+				<bk:city>8708 Männedorf</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Lucien</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Denise Schwotzer</bk:name>
+				<bk:street>Postfach</bk:street>
+				<bk:city>8708 Männedorf</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Denise</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Roland Sedleger</bk:name>
+				<bk:street>Häldelistr. 18</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Roland</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Alex Siebenhaar</bk:name>
+				<bk:street>Eichstr. 10e</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Alex</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Denis Weiss</bk:name>
+				<bk:street>Bahnrainstr. 38</bk:street>
+				<bk:city>8708 Männedorf</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Denis</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Urs Widmer</bk:name>
+				<bk:street>Begonienstr. 9</bk:street>
+				<bk:city>8472 Seuzach</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Urs</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Maja Wirth</bk:name>
+				<bk:street>Allenbergstrasse 75b</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Maja</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Karin Zachas</bk:name>
+				<bk:street>Stationsstrasse 21</bk:street>
+				<bk:city>8713 Uerikon</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Karin</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Passivmitglieder" amount="50.00" />
+			</bk:categoryList>
+		</bk:member>
+	</bk:memberList>
+</bk>

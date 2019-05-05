@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bk:memberList xmlns:bk="http://www.bkaiser.com/2018/ns/bkaiser">
+	<bk:date>9. April 2018</bk:date>
+	<bk:paymentDate>innert 30 Tagen</bk:paymentDate>
+	<bk:title>Rechnung</bk:title>
+	<bk:greetings>Mit freundlichen Grüssen</bk:greetings>
+	<bk:sender>
+		<bk:org>bkaiser GmbH</bk:org>
+		<bk:person>>Bruno Kaiser</bk:person>
+		<bk:function>Partner</bk:function>
+		<bk:phone>+41 79 790 8929</bk:phone>
+		<bk:email>bruno@bkaiser.com</bk:email>
+		<bk:web>www.bkaiser.com</bk:web>
+	</bk:sender>
+	<bk:member>
+		<bk:address>
+			<bk:name>PEAX AG</bk:name>
+			<bk:street>Pilatusstr. 28</bk:street>
+			<bk:city>6003 Luzern</bk:city>
+		</bk:address>
+		<bk:salutation>Liebe PEAX,</bk:salutation>
+		<bk:content>Diese Rechnung ist für Leistungen erbracht im März. bla bla</bk:content>
+	</bk:member>
+	<bk:member>
+		<bk:address>
+			<bk:name>Base-Net Informatik AG</bk:name>
+			<bk:street>Wassergrabe 14</bk:street>
+			<bk:city>6210 Sursee</bk:city>
+		</bk:address>
+		<bk:salutation></bk:salutation>
+		<bk:content>hiermit verrechnen wir Ihnen gem. Vereinbarung CHF 10000.- für Leistungen erbracht seit Anfang 2018.</bk:content>
+	</bk:member>	
+</bk:memberList>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job-definitions
+  xmlns="http://www.jeremias-maerki.ch/ns/wod/job/simple"
+  xmlns:job="http://www.jeremias-maerki.ch/ns/wod/job"
+  xmlns:wod="http://www.jeremias-maerki.ch/ns/wod/functions"
+  xmlns:wd="http://www.jeremias-maerki.ch/ns/wod/document/v1"
+  xmlns:p="http://peax.ch/ns/invoice"
+  xmlns:bk="http://bkaiser.com/ns/bkaiser"
+  xmlns:print="http://www.jeremias-maerki.ch/ns/print">
+  
+  <job-definition>
+    <job-type>http://bkaiser.com/ns/bkaiser/jahresrechnung</job-type>
+    <description>bkaiser :: Jahresrechnung</description>
+    <version>1.0</version>
+    <identification representation-type="http://bkaiser.com/ns/bkaiser/jahresrechnung">
+      <xpath>boolean(/bk:memberList/bk:paymentDate)</xpath>
+    </identification>
+    
+    <document-type uri="http://bkaiser.com/ns/bkaiser/jahresrechnung" 
+      mime="application/xml" extension="xml" description="bkaiser :: Jahresrechnung XML"/>
+    
+    <job-expires-in>P30D</job-expires-in>
+    <execution>
+      <pipeline name="bkaiser.rechnung"/>
+    </execution>
+  </job-definition>
+
+<!--   <job-definition>
+    <job-type>http://bkaiser.com/ns/bkaiser/rechnung/einzel</job-type>
+    <description>bkaiser :: Rechnung (einzel)</description>
+    <version>1.0</version>
+    
+    <job-expires-in>P30D</job-expires-in>
+    <execution>
+      <pipeline name="bkaiser.rechnung.single"/>
+    </execution>
+  </job-definition> -->
+  
+</job-definitions>

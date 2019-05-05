@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database xmlns="http://jeremias-maerki.ch/ns/xmldb/rdb" dataSource="WODContentRepo">
+  <namespace uri="http://www.jeremias-maerki.ch/wod/metadata" prefix="wod"/>
+  <namespace uri="http://www.w3.org/1999/02/22-rdf-syntax-ns#" prefix="rdf"/>
+  <namespace uri="http://ns.adobe.com/xap/1.0/" prefix="xmp"/>
+  <namespace uri="http://ns.adobe.com/xmp/Identifier/qual/1.0/" prefix="xmpidq"/>
+
+  <collection name="ContentRepoMetadata" resourceType="XMLResource">
+    <indexes>
+      <index name="filename" datatype="String" xpath="//xmp:Identifier//rdf:Description[boolean(xmpidq:Scheme[. = 'ch.jm.wod.repository.content.filesystem'])][1]/rdf:value"/>
+      <index name="expires" datatype="Timestamp" xpath="//wod:Expires[1]"/>
+    </indexes>
+  </collection>
+</database>

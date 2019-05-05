@@ -1,0 +1,194 @@
+<bk xmlns="http://www.bkaiser.com/2017/ns/seeclub">
+	<bk:memberList xmlns:bk="http://www.bkaiser.com/2017/ns/seeclub">
+		<bk:date>6.5.2019</bk:date>
+		<bk:paymentDate>innert 30 Tagen</bk:paymentDate>
+		<bk:title>Mitgliederbeitrag 2019</bk:title>
+		<bk:member>
+			<bk:address>
+				<bk:name>Seeclub Wädenswil</bk:name>
+				<bk:street>Postfach 446</bk:street>
+				<bk:city>8820 Wädenswil</bk:city>
+			</bk:address>
+			<bk:salutation>Hallo </bk:salutation>
+			<bk:greeting></bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Schweiz. Ruderverband</bk:name>
+				<bk:street>Brünigstrasse 182 A</bk:street>
+				<bk:city>6060 Sarnen</bk:city>
+			</bk:address>
+			<bk:salutation>Hallo </bk:salutation>
+			<bk:greeting></bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Ruderclub Thalwil</bk:name>
+				<bk:street>Seestrasse 178</bk:street>
+				<bk:city>8800 Thalwil</bk:city>
+			</bk:address>
+			<bk:salutation>Hallo </bk:salutation>
+			<bk:greeting></bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Belvoir Ruder-Club</bk:name>
+				<bk:street>Mythenquai 85</bk:street>
+				<bk:city>8002 Zürich</bk:city>
+			</bk:address>
+			<bk:salutation>Hallo </bk:salutation>
+			<bk:greeting></bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Ruderclub Kreuzlingen</bk:name>
+				<bk:street>Postfach</bk:street>
+				<bk:city>8280 Kreuzlingen</bk:city>
+			</bk:address>
+			<bk:salutation>Hallo </bk:salutation>
+			<bk:greeting></bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Ruderclub Rapperswil-Jona</bk:name>
+				<bk:street>Lidoplatz 20</bk:street>
+				<bk:city>8640 Rapperswil</bk:city>
+			</bk:address>
+			<bk:salutation>Hallo </bk:salutation>
+			<bk:greeting></bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Seeclub Horgen</bk:name>
+				<bk:street>Hirsackerstrasse</bk:street>
+				<bk:city>8810 Horgen</bk:city>
+			</bk:address>
+			<bk:salutation>Hallo </bk:salutation>
+			<bk:greeting></bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Seeclub Richterswil</bk:name>
+				<bk:street>Postfach 481</bk:street>
+				<bk:city>8805 Richterswil</bk:city>
+			</bk:address>
+			<bk:salutation>Hallo </bk:salutation>
+			<bk:greeting></bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Ruderclub Uster</bk:name>
+				<bk:name2>Roger Achermann</bk:name2>
+				<bk:street>Seefeldstrasse 58</bk:street>
+				<bk:city>8616 Riedikon</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Roger</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Ruderclub Greifensee</bk:name>
+				<bk:name2>Alexander Jolles</bk:name2>
+				<bk:street>Postfach 1876</bk:street>
+				<bk:city>8021 Zürich</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Alexander</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Ruderclub Erlenbach</bk:name>
+				<bk:name2>Tony Nüscheler</bk:name2>
+				<bk:street>Schifflände 3</bk:street>
+				<bk:city>8703 Erlenbach</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Tony</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Seeclub Küsnacht</bk:name>
+				<bk:name2>Martina Sintzel</bk:name2>
+				<bk:street>Theodor-Brunner-Weg 4</bk:street>
+				<bk:city>8700 Küsnacht</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Martina</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>See-Club Zug</bk:name>
+				<bk:name2>Christian Steiger</bk:name2>
+				<bk:street>Arbachstrasse 55</bk:street>
+				<bk:city>6340 Baar</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Christian</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Ruderclub Sihlsee</bk:name>
+				<bk:name2>Fredi Trütsch</bk:name2>
+				<bk:street>Oberbönigenstrasse 1 </bk:street>
+				<bk:city>8840 Einsiedeln</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Fredi</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Ruderclub Walensee</bk:name>
+				<bk:name2>Reto Züst</bk:name2>
+				<bk:street>Amdenerstrasse 36</bk:street>
+				<bk:city>8872 Weesen</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Reto</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Ruderclubs" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+	</bk:memberList>
+</bk>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bk:memberList xmlns:bk="http://www.bkaiser.com/2018/ns/sise">
+	<bk:date>19. Juni 2018</bk:date>
+	<bk:member name="Bruno Kaiser, bkaiser GmbH">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+			<bk:category name="Tutorial" date="MI 20. Juni 2018" duration="3.5 h" />
+		</bk:categoryList>
+	</bk:member>
+</bk:memberList>

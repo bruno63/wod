@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job-definitions
+  xmlns="http://www.jeremias-maerki.ch/ns/wod/job/simple"
+  xmlns:job="http://www.jeremias-maerki.ch/ns/wod/job"
+  xmlns:wod="http://www.jeremias-maerki.ch/ns/wod/functions"
+  xmlns:wd="http://www.jeremias-maerki.ch/ns/wod/document/v1"
+  xmlns:p="http://peax.ch/ns/invoice"
+  xmlns:bk="http://www.bkaiser.com/2018/ns/sise"
+  xmlns:print="http://www.jeremias-maerki.ch/ns/print">
+  
+  <job-definition>
+    <job-type>http://si-se.ch/wod/anmeldebestaetigung</job-type>
+    <description>SI-SE :: Anmeldebestaetigung</description>
+    <version>1.0</version>
+    <identification representation-type="http://si-se.ch/wod/anmeldebestaetigung">
+      <xpath>boolean(/bk:memberList/bk:date)</xpath>
+    </identification>
+    
+    <document-type uri="http://si-se.ch/wod/anmeldebestaetigung" mime="application/xml" extension="xml" 
+    description="SI-SE :: Anmeldebestaetigung"/>
+    
+    <job-expires-in>P30D</job-expires-in>
+    <execution>
+      <pipeline name="sise.anmeldebestaetigung"/>
+    </execution>
+  </job-definition>
+
+  <job-definition>
+    <job-type>http://si-se.ch/wod/teilnahmebestaetigung</job-type>
+    <description>SI-SE :: Teilnahmebestaetigung</description>
+    <version>1.0</version>
+    <identification representation-type="http://si-se.ch/wod/teilnahmebestaetigung">
+      <xpath>boolean(/bk:memberList/bk:date)</xpath>
+    </identification>
+    
+    <document-type uri="http://si-se.ch/wod/teilnahmebestaetigung" mime="application/xml" extension="xml" 
+    description="SI-SE :: Teilnahmebestaetigung"/>
+    
+    <job-expires-in>P30D</job-expires-in>
+    <execution>
+      <pipeline name="sise.teilnahmebestaetigung"/>
+    </execution>
+  </job-definition>
+  
+</job-definitions>

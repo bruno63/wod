@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bk:memberList xmlns:bk="http://www.bkaiser.com/2017/ns/sise">
+	<bk:date>13. Juni 2017</bk:date>
+	<bk:member  name="Joel Akeret, Zühlke Engineering AG" amount="200" paid="true" date="22. Mai 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="David Baer, Zühlke Engineering AG" amount="200" paid="true" date="12. Mai 2017">
+		<bk:categoryList>
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>	
+	<bk:member  name="Ivo Colombo, Zühlke Engineering AG" amount="200" unpaid="true">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Wolfgang Giersche, Zühlke Engineering AG" amount="200" paid="true" date="15. Mai 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Matthias Bucher, Zühlke Engineering AG" amount="200" paid="true" date="15. Mai 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Philip Kerpen, Zühlke Engineering AG" amount="400" unpaid="true">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Bruno Ritz, Zühlke Engineering AG" amount="400" paid="true" date="22. Mai 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Claude Gex, Codeblock GmbH" amount="600" paid="true" date="24. Mai 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Max Obrist, Zühlke Engineering AG" amount="400" paid="true" date="17. Mai 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Kasimir Blaser, Zühlke Engineering AG" amount="200" unpaid="true">
+		<bk:categoryList>
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>	
+	<bk:member  name="Yacine Mekesser, Zühlke Engineering AG" amount="200" paid="true" date="23. Mai 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>	
+	<bk:member  name="Stefan Ackermann, Zühlke Engineering AG" amount="200" paid="true" date="6. Juni 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>	
+	<bk:member  name="David Frank, Accarda AG" amount="600" paid="true" date="2. Juni 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>	
+	<bk:member  name="Andreas Mösching, die Mobiliar" amount="200" unpaid="true">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>	
+	<bk:member  name="Markus Zeder, CSS Versicherung" amount="300" paid="true" date="2. Juni 2017">
+		<bk:categoryList>
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>	
+	<bk:member  name="Nicolas Hoby, JLS Digital AG" amount="600" paid="true" date="9.6.17 (Rg 172002)">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>	
+	<bk:member  name="Oliver Masutti" amount="300" paid="true" date="6. Juni 2017">
+		<bk:categoryList>
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>	
+	<bk:member  name="Christian Tschanz, JLS Digital AG" amount="600" paid="true" date="9.6.17 (Rg 172002)">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>	
+	<bk:member  name="Rudolf Kurt Keller, PMOD Technologies GmbH" amount="400" paid="true" date="7. Juni 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>	
+	<bk:member  name="Bruno Russiniello" amount="200" unpaid="true">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Ronnie Schaniel, Universität Zürich" amount="60" paid="true" date="9. Juni 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Marc Stampfli, NVIDIA Switzerland" amount="200" unpaid="true">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Dmitrij Burlak, AdNovum Informatik AG" amount="200" paid="true" date="9. Juni 2017 (Sammelrechnung AdNovum 172005)">
+		<bk:categoryList>
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Julia Imhof, AdNovum Informatik AG" amount="200" paid="true" date="9. Juni 2017 (Sammelrechnung AdNovum 172005)">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="David Freiburghaus, AdNovum Informatik AG" amount="200" paid="true" date="9. Juni 2017 (Sammelrechnung AdNovum 172005)">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Hartmut Keil, AdNovum Informatik AG" amount="200" paid="true" date="9. Juni 2017 (Sammelrechnung AdNovum 172005)">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Tom Sprenger, AdNovum Informatik AG" amount="200" paid="true" date="9. Juni 2017 (Sammelrechnung AdNovum 172005)">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Caroline Grässle, UBS AG" amount="300" paid="true" date="12. Juni 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Martin Fussen, organit gmbh" amount="300" paid="true" date="13. Juni 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Felix Rickenbacher, Valebit AG" amount="400" paid="true" date="13. Juni 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="Matthias Scherrer" amount="60" paid="true" date="9. Juni 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+</bk:memberList>
+
+<!-- Templates>
+	<bk:member  name="NAME" amount="200" paid="true" date="22. Mai 2017">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member  name="NAME" amount="300" unpaid="true">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 20. Juni 2017" />
+			<bk:category name="Tutorial" date="MO 19. Juni 2017" />
+		</bk:categoryList>
+	</bk:member>
+</Templates-->

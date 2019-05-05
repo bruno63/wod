@@ -1,0 +1,208 @@
+<bk xmlns="http://www.bkaiser.com/2017/ns/seeclub">
+	<bk:memberList xmlns:bk="http://www.bkaiser.com/2017/ns/seeclub">
+		<bk:date>6.5.2019</bk:date>
+		<bk:paymentDate>innert 30 Tagen</bk:paymentDate>
+		<bk:title>Mitgliederbeitrag 2019</bk:title>
+		<bk:member>
+			<bk:address>
+				<bk:name>Molki Stäfa</bk:name>
+				<bk:street>Bahnhofstr. 26</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber </bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Egli Garten AG</bk:name>
+				<bk:street>Chälhofstrasse 12</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Hallo </bk:salutation>
+			<bk:greeting></bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Schnell Treuhand</bk:name>
+				<bk:street>Goethestr. 21</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Hallo </bk:salutation>
+			<bk:greeting></bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Loosli Getränkehandel</bk:name>
+				<bk:street>Gerbeweg 5</bk:street>
+				<bk:city>8708 Männedorf</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber </bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Baumgartner AG</bk:name>
+				<bk:street>Seestr. 50</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Hallo </bk:salutation>
+			<bk:greeting></bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Stämpfli Racing Boats</bk:name>
+				<bk:street>Seestr. 497</bk:street>
+				<bk:city>8038 Zürich</bk:city>
+			</bk:address>
+			<bk:salutation>Hallo </bk:salutation>
+			<bk:greeting></bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Peer Elektroservice GmbH</bk:name>
+				<bk:street>Herrmann-Hiltbrunnerweg 16</bk:street>
+				<bk:city>8713 Uerikon</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber </bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Schneider Umweltservice AG</bk:name>
+				<bk:name2>Stefan Flory</bk:name2>
+				<bk:street>Seestr. 1037</bk:street>
+				<bk:city>8706 Meilen</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Stefan</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Baumann Reisen AG</bk:name>
+				<bk:name2>Urs Gallati</bk:name2>
+				<bk:street>Postfach 979</bk:street>
+				<bk:city>8708 Männedorf</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Urs</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Weingut Rütihof</bk:name>
+				<bk:name2>Monica Hasler</bk:name2>
+				<bk:street>Rütihofstr. 13</bk:street>
+				<bk:city>8713 Uerikon</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Monica</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Raiffeisenbank AG</bk:name>
+				<bk:name2>Esther Hüsser</bk:name2>
+				<bk:street>Bahnhofstrasse 20</bk:street>
+				<bk:city>8708 Männedorf</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Esther</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Metzgerei Heyne</bk:name>
+				<bk:name2>Ruedi Ledergerber</bk:name2>
+				<bk:street>Bahnhofstr. 22</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Ruedi</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Malergeschäft Walter Mäder</bk:name>
+				<bk:name2>Elisabeth Mäder</bk:name2>
+				<bk:street>Glärnischstrasse 19</bk:street>
+				<bk:city>8633 Wolfhausen</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Elisabeth</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Kleintierpraxis meilana</bk:name>
+				<bk:name2>Beata Rohner</bk:name2>
+				<bk:street>Dorfstr. 214</bk:street>
+				<bk:city>8706 Meilen</bk:city>
+			</bk:address>
+			<bk:salutation>Liebe Beata</bk:salutation>
+			<bk:greeting>Frau</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>Rüdisüli Maler AG</bk:name>
+				<bk:name2>Marcel Rüdisüli</bk:name2>
+				<bk:street>Dorfstr. 2</bk:street>
+				<bk:city>8712 Stäfa</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Marcel</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+		<bk:member>
+			<bk:address>
+				<bk:name>aut Atelier</bk:name>
+				<bk:name2>Urs Tischhauser</bk:name2>
+				<bk:street>Oberdorfgasse 1</bk:street>
+				<bk:city>8798 Männedorf</bk:city>
+			</bk:address>
+			<bk:salutation>Lieber Urs</bk:salutation>
+			<bk:greeting>Herr</bk:greeting>
+			<bk:categoryList>
+				<bk:category name="Mitgliedschaft Inserenten" amount="0.00" />
+			</bk:categoryList>
+		</bk:member>
+	</bk:memberList>
+</bk>

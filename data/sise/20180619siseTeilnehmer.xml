@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bk:memberList xmlns:bk="http://www.bkaiser.com/2018/ns/sise">
+	<bk:date>19. Juni 2018</bk:date>
+	<bk:member name="Christoph Laaber, Universität Zürich">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Paul Chlebek, FI EOS7">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+			<bk:category name="Tutorial 1" date="MI 20. Juni 2018" duration="3.5 h" />
+			<bk:category name="Tutorial 2" date="MI 20. Juni 2018" duration="3.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Flavio	Reinhard, Zühlke Engineering">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+			<bk:category name="Tutorial 1" date="MI 20. Juni 2018" duration="3.5 h" />
+			<bk:category name="Tutorial 2" date="MI 20. Juni 2018" duration="3.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Stefan	Vögeli, Zühlke Engineering">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+			<bk:category name="Tutorial 2" date="MI 20. Juni 2018" duration="3.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Bryan, Albrecht, Zühlke Engineering">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+			<bk:category name="Tutorial 1" date="MI 20. Juni 2018" duration="3.5 h" />
+			<bk:category name="Tutorial 2" date="MI 20. Juni 2018" duration="3.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Gregor Sarrazin, Zühlke Engineering AG">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Stefan Derungs, Zühlke Engineering AG">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Oliver Brack, Zühlke Engineering AG">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Jonas Gschwend, Zühlke Engineering AG">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Abraham Agboli, Roche Diagnostics International AG">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+			<bk:category name="Tutorial 1" date="MI 20. Juni 2018" duration="3.5 h" />
+			<bk:category name="Tutorial 2" date="MI 20. Juni 2018" duration="3.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Martin Schweingruber, Schmid Elektronik AG">
+		<bk:categoryList>
+			<bk:category name="Tutorial 1" date="MI 20. Juni 2018" duration="3.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Roger Fischlin, Sowatec AG">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+			<bk:category name="Tutorial 1" date="MI 20. Juni 2018" duration="3.5 h" />
+			<bk:category name="Tutorial 2" date="MI 20. Juni 2018" duration="3.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Beat Friedli, PostFinance AG">
+		<bk:categoryList>
+			<bk:category name="Tutorial 1" date="MI 20. Juni 2018" duration="3.5 h" />
+			<bk:category name="Tutorial 2" date="MI 20. Juni 2018" duration="3.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Daniel Hegewald, AXA Health">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Ulf Leonhardt, emineo AG">
+		<bk:categoryList>
+			<bk:category name="Tutorial 1" date="MI 20. Juni 2018" duration="3.5 h" />
+			<bk:category name="Tutorial 2" date="MI 20. Juni 2018" duration="3.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Markus Eiglsperger, Hochschule Konstanz">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Björn Reber, emineo AG">
+		<bk:categoryList>
+			<bk:category name="Tutorial 1" date="MI 20. Juni 2018" duration="3.5 h" />
+			<bk:category name="Tutorial 2" date="MI 20. Juni 2018" duration="3.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Ilja Spörndli, emineo AG">
+		<bk:categoryList>
+			<bk:category name="Tutorial 2" date="MI 20. Juni 2018" duration="3.5 h" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member name="Andreas Glahn, Helsana Versicherungen AG">
+		<bk:categoryList>
+			<bk:category name="Fachtagung" date="DI 19. Juni 2018" duration="7.5 h" />
+		</bk:categoryList>
+	</bk:member>
+</bk:memberList>
